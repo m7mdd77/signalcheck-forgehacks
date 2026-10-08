@@ -1,0 +1,20 @@
+{
+  "name": "signalcheck-forgehacks-entry",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "esbuild public/app.mjs --bundle --platform=browser --format=esm --outfile=public/bundle.mjs",
+    "test": "node --test test.mjs",
+    "evaluate": "node evaluate.mjs",
+    "start": "node server.mjs"
+  },
+  "dependencies": {
+    "ml-naivebayes": "4.0.0",
+    "tldts": "7.0.25",
+    "lucide": "0.468.0"
+  },
+  "devDependencies": {
+    "esbuild": "0.25.10"
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "dataSource": "AUTHOR_CREATED_SYNTHETIC_ONLY",
+  "trainingCount": 40,
+  "heldoutCount": 16,
+  "correct": 15,
+  "baselineCorrect": 12,
+  "abstained": 0,
+  "confusion": {
+    "truePositive": 8,
+    "trueNegative": 7,
+    "falsePositive": 1,
+    "falseNegative": 0
+  },
+  "cases": [
+    {
+      "text": "Claim your lottery winnings today. A processing deposit is required.",
+      "expected": 1,
+      "predicted": 1,
+      "baseline": 0,
+      "label": "suspicious_pattern"
+    },
+    {
+      "text": "Our support agent requires your recovery phrase to unlock the wallet.",
+      "expected": 1,
+      "predicted": 1,
+      "baseline": 0,
+      "label": "suspicious_pattern"
+    },
+    {
+      "text": "Bank security warning. Send the verification code urgently.",
+      "expected": 1,
+      "predicted": 1,
+      "baseline": 1,
+      "label": "suspicious_pattern"
+    },
+    {
+      "text": "Buy gift cards for the director and do not discuss this with anyone.",
+      "expected": 1,
+      "predicted": 1,
+      "baseline": 1,
+      "label": "suspicious_pattern"
+    },
+    {
+      "text": "Pay an unexpected customs fee now or lose your delivery.",
+      "expected": 1,
+      "predicted": 1,
+      "baseline": 0,
+      "label": "suspicious_pattern"
+    },
+    {
+      "text": "Guaranteed returns if you transfer your money before midnight.",
+      "expected": 1,
+      "predicted": 1,
+      "baseline": 0,
+      "label": "suspicious_pattern"
+    },
+    {
+      "text": "Account deletion is imminent. Share your login password immediately.",
+      "expected": 1,
+      "predicted": 1,
+      "baseline": 1,
+      "label": "suspicious_pattern"
+    },
+    {
+      "text": "The prize expires shortly. Send payment to collect the reward.",
+      "expected": 1,
+      "predicted": 1,
+      "baseline": 1,
+      "label": "suspicious_pattern"
+    },
+    {
+      "text": "The course timetable is in the student portal. Please review it before Monday.",
+      "expected": 0,
+      "predicted": 0,
+      "baseline": 0,
+      "label": "ordinary_pattern"
+    },
+    {
+      "text": "Your appointment has moved to Thursday. Call the office to reschedule.",
+      "expected": 0,
+      "predicted": 0,
+      "baseline": 0,
+      "label": "ordinary_pattern"
+    },
+    {
+      "text": "Thanks for attending the workshop. The slides are in the shared folder.",
+      "expected": 0,
+      "predicted": 0,
+      "baseline": 0,
+      "label": "ordinary_pattern"
+    },
+    {
+      "text": "Open your usual app to view the receipt. No action is needed.",
+      "expected": 0,
+      "predicted": 0,
+      "baseline": 0,
+      "label": "ordinary_pattern"
+    },
+    {
+      "text": "Bring your student card and notebook to the lecture next week.",
+      "expected": 0,
+      "predicted": 0,
+      "baseline": 0,
+      "label": "ordinary_pattern"
+    },
+    {
+      "text": "The bank will never ask you to share a verification code.",
+      "expected": 0,
+      "predicted": 1,
+      "baseline": 0,
+      "label": "suspicious_pattern"
+    },
+    {
+      "text": "The project report is ready for comments at our next meeting.",
+      "expected": 0,
+      "predicted": 0,
+      "baseline": 0,
+      "label": "ordinary_pattern"
+    },
+    {
+      "text": "The library office is closed on Friday. Please return books next week.",
+      "expected": 0,
+      "predicted": 0,
+      "baseline": 0,
+      "label": "ordinary_pattern"
+    }
+  ],
+  "warning": "Small hand-written holdout; no merchant/user testing or real-world accuracy claim. Data was designed by the same author as the application."
+}
